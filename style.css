@@ -3,12 +3,9 @@ body {
 	padding: 0;
 	width: 100vw;
 	height: 100vh;
-	/*background-image: url('background.png');*/ 
-	background-color: #000;           
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center center;
+	background-image: url('background.jpg'); 
+	background-repeat: repeat;
+	background-size: 702px 702px;
 }
 
 	.container {
@@ -41,31 +38,10 @@ body {
 		margin-top: 15px;
 	}
 
-	/*Desktops*/
-	@media only screen and (min-width: 992px) {
 	td {
 		padding: 10px;
 		vertical-align: top;
 		border: 1px;
-	}
-	}
-	
-	/*Tablets*/
-	@media only screen and (min-width: 768px) and (max-width: 991px) {
-	td {
-		padding: 8px;
-		vertical-align: top;
-		border: 1px;
-	}
-	}
-
-	/*Mobile*/
-	@media only screen and (min-width: 767px) {
-	td {
-		padding: 6px;
-		vertical-align: top;
-		border: 1px;
-	}
 	}
 
 	.section-header {
