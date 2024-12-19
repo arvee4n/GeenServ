@@ -5,6 +5,7 @@ body {
 	height: 100vh;
 	background-image: url('./background.png'); 
 	background-repeat: repeat;
+    background-color: #000;
 	background-size: 117px 117px;
 }
 
